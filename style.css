@@ -1,3 +1,7 @@
+body{
+    scroll-behavior: smooth;
+}
+
 #nav,
 #page1 {
     display: flex
@@ -176,16 +180,16 @@ video {
     padding: 10px 10px;
     border-radius: 8px;
     text-shadow: none;
-    background-color: #faa700;
+    background-color: rgba(255, 255, 255, 0.5);
     transition: all ease-out .5s;
     text-shadow: 1px 1px 4px #000;
 }
 
 #nav .sign-in:hover {
+    background-color: #faa700;
     text-shadow: 1.5px 1.5px 5px #000;
     border: white solid 1px;
     scale: 1.1;
-    /* background-color:#d2691eda; */
 }
 
 #about,
